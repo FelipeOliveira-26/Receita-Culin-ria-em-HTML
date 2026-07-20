@@ -1,0 +1,134 @@
+/* Corpo da página */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4F7FA;
+    margin: 30px;
+    color: #333333;
+}
+
+/* Título principal */
+h1{
+    text-align: center;
+    color: #1565C0;
+}
+
+/* Imagem principal */
+body > img{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px solid #1565C0;
+}
+
+/* Índice */
+p{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+ol{
+    margin-bottom: 30px;
+}
+
+/* Títulos das seções */
+h2{
+    background-color: #1565C0;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Lista de ingredientes */
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    background-color: white;
+    border: 1px solid #D6DCE5;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/* Nomes dos ingredientes */
+h3{
+    color: #0D47A1;
+}
+
+/* Imagens dos ingredientes */
+ul li img{
+    border-radius: 6px;
+    margin: 5px 0;
+}
+
+/* Links */
+a{
+    color: #1976D2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #FF9800;
+    text-decoration: underline;
+}
+
+/* Modo de preparo */
+#modo_de_preparo + ol{
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    border: 1px solid #D6DCE5;
+}
+
+#modo_de_preparo + ol li{
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+
+/* TABELA */
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th{
+    background-color: #0D47A1;
+    color: white;
+    padding: 12px;
+}
+
+td{
+    border: 1px solid #D6DCE5;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Ingredientes sólidos */
+.solido{
+    background-color: white;
+}
+
+/* Ingredientes líquidos */
+.liquido{
+    background-color: white;
+}
+
+/* Preço unitário */
+.preco{
+    color: #2E7D32;
+    font-weight: bold;
+}
+
+/* Valor total */
+.total{
+    color: #C62828;
+    font-weight: bold;
+}
+
